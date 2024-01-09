@@ -10,4 +10,5 @@ module top_module (
     assign x = concatenate [23:16];
     assign w = concatenate [31:24];
 
+
 endmodule
