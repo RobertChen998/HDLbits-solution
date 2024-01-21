@@ -7,7 +7,6 @@ module top_module (
 wire [7:0] q_1_2,q_2_3,q_3_o;
 
 
-
 my_dff8 d1(.clk(clk),.d(d),.q(q_1_2));
 my_dff8 d2(.clk(clk),.d(q_1_2),.q(q_2_3));
 my_dff8 d3(.clk(clk),.d(q_2_3),.q(q_3_o));

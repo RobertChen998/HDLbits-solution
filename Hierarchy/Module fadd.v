@@ -12,6 +12,7 @@ add16 ADD2(a[31:16],b[31:16],co_1,sum[31:16],co_2);
 
 endmodule
 
+
 module add1 ( input a, input b, input cin,   output sum, output cout );
 
 assign sum = a^b^cin;
