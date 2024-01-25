@@ -5,4 +5,5 @@ module top_module (
 
 assign out = ~(in1|in2);
 
+
 endmodule
