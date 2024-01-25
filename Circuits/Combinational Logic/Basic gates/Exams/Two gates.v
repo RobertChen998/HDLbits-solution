@@ -8,5 +8,4 @@ module top_module (
     assign a = ~(in1 ^ in2);
     assign out = a ^ in3;
 
-
 endmodule
