@@ -17,5 +17,4 @@ assign out_nor = ~(a | b);
 assign out_xnor = ~(a ^ b);
 assign out_anotb = a & (~b);
 
-
 endmodule
